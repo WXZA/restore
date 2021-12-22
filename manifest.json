@@ -1,0 +1,20 @@
+{
+    "name": "restore",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "restore the closed page",
+    "icons": {
+        "16": "restore.png",
+        "48": "restore.png",
+        "128": "restore.png"
+    },
+    "browser_action": {
+        "default_icon": "restore.png"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": [
+        "sessions"
+    ]
+}
